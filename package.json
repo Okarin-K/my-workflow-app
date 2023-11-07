@@ -1,0 +1,19 @@
+{
+  "name": "my-workflow-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "ts-jest": "^26.0.0",
+    "jest": "^26.0.0",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
